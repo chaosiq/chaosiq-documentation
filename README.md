@@ -8,7 +8,7 @@ This project is based on [MkDocs][], a Python documentation generator based on
 [Markdown][].
 
 To get started, install Python 3 on your machine, a [virtual environment][venv]
-and install the dependencies using [pip][] as follows:
+and install the dependencies using [pip][pip] as follows:
 
 ```
 $ pip install -r requirements.txt
