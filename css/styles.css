@@ -139,19 +139,6 @@ body, input {
     color: var(--heading-color);
   }
 
-/* Sidebar */
-@media only screen and (min-width: 76.25em) {
-  .md-sidebar--secondary {
-    margin-left: 100%;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  .md-sidebar--secondary {
-    margin-left: 72rem;
-  }
-}
-
 /* Footer */
 .md-footer-nav {
   background-color: var(--gray-dark);
