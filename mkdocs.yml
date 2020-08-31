@@ -80,6 +80,7 @@ nav:
         - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization.md
         - Creating a Team: organizations-and-teams/creating-a-team.md
         - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
+        - Running Experiments as a Team: organizations-and-teams/collaborating-on-experiments.md
         - Switching Teams: organizations-and-teams/switching-teams.md
         - Switching Organizations: organizations-and-teams/switching-organizations.md
 - Tokens: tokens/generate-token.md
