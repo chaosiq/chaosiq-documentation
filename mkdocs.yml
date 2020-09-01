@@ -36,55 +36,55 @@ markdown_extensions:
   - pymdownx.tilde
 nav:
 - Introducing the Reliability Toolkit: index.md
-- Why Reliability is a Practice: why-practice/why-practice-reliability.md
+- Why Reliability is a Practice: why-practice-reliability/index.md
 - Getting Started:
-    - Introduction: gettingstarted/introduction.md
-    - Prerequisites: gettingstarted/prerequisites.md
-    - Login to ChaosIQ: gettingstarted/login-chaosiq.md
-    - Sign-in Chaos Toolkit to ChaosIQ: gettingstarted/signin.md
-    - Create your first Objective: gettingstarted/first-objective.md
-    - Create your first Verification: gettingstarted/first-verification.md
-    - Run your first Verification: gettingstarted/run-first-verification.md
+    - Introduction: getting-started/introduction/index.md
+    - Prerequisites: getting-started/prerequisites/index.md
+    - Login to ChaosIQ: getting-started/login-chaosiq/index.md
+    - Sign-in Chaos Toolkit to ChaosIQ: getting-started/chaostoolkit-signin/index.md
+    - Create your first Objective: getting-started/first-objective/index.md
+    - Create your first Verification: getting-started/first-verification/index.md
+    - Run your first Verification: getting-started/run-first-verification/index.md
 - Tutorials:
-    - Verifications on AWS with Systems Manager: ssm-on-aws/ssm-on-aws.md
-- Reliability Timelines: timeline/timeline.md
+    - Verifications on AWS with Systems Manager: tutorials/ssm-on-aws/index.md
 - Verifications and Experiments:
-      - Introduction: verifications-and-experiments/introduction.md
-      - Experiment Format: verifications-and-experiments/experiment-format.md
-      - Verification Format: verifications-and-experiments/verification-format.md
-      - Execution Profile: verifications-and-experiments/execution-profile.md
-      - Experiment and Verification Execution: verifications-and-experiments/run-and-verify.md
-- Objectives: objectives.md
+      - Introduction: verifications-and-experiments/introduction/index.md
+      - Experiment Format: verifications-and-experiments/experiment-format/index.md
+      - Verification Format: verifications-and-experiments/verification-format/index.md
+      - Execution Profile: verifications-and-experiments/execution-profile/index.md
+      - Experiment and Verification Execution: verifications-and-experiments/run-and-verify/index.md
+- Objectives: objectives/index.md
 - Running a Verification:
-    - Running using the CLI: running-the-cli/cli.md
+    - Running using the CLI: running-a-verification/cli/index.md
     - Running using Docker:
-      - Introduction to Docker: running-on-docker/chaosiq-on-docker-intro.md
-      - Run an Experiment with Docker: running-on-docker/run-experiment.md
-      - Run an Experiment with Docker and ChaosIQ: running-on-docker/run-with-chaosiq.md
-      - Run a Verification with Docker: running-on-docker/run-verification.md
-      - Build a Custom Docker image to use ChaosIQ: running-on-docker/build-a-custom-docker-image.md
+      - Introduction to Docker: running-a-verification/docker/introduction/index.md
+      - Run an Experiment with Docker: running-a-verification/docker/run-experiment/index.md
+      - Run an Experiment with Docker and ChaosIQ: running-a-verification/docker/run-with-chaosiq/index.md
+      - Run a Verification with Docker: running-a-verification/docker/run-verification/index.md
+      - Build a Custom Docker image to use ChaosIQ: running-a-verification/docker/custom-docker-image/index.md
     - Running using Kubernetes:
-      - Introduction to Kubernetes: running-on-kubernetes/intro.md
-      - Configure ChaosIQ settings as secret: running-on-kubernetes/settings-as-secret.md
-      - Create a Chaos Experiment on Kubernetes: running-on-kubernetes/create-experiment-operator.md
+      - Introduction to Kubernetes: running-a-verification/kubernetes/introduction/index.md
+      - Configure ChaosIQ settings as secret: running-a-verification/kubernetes/settings-as-secret/index.md
+      - Create a Chaos Experiment on Kubernetes: running-a-verification/kubernetes/create-experiment-operator/index.md
     - Running using CI/CD:
-        - Running Continuous Verifications: running-on-ci-cd.md
+        - Running Continuous Verifications: running-a-verification/ci-cd/continuous-verifications/index.md
         - Running using Travis:
-          - Introduction to Travis: running-on-travis/chaosiq-on-travis-intro.md
-          - Prerequisites: running-on-travis/prerequisites.md
-          - Run a Chaos Experiment: running-on-travis/run-experiment.md
-          - Run an Experiment with ChaosIQ: running-on-travis/run-with-chaosiq.md
+          - Introduction to Travis: running-a-verification/ci-cd/travis/introduction/index.md
+          - Prerequisites: running-a-verification/ci-cd/travis/prerequisites/index.md
+          - Run a Chaos Experiment: running-a-verification/ci-cd/travis/run-experiment/index.md
+          - Run an Experiment with ChaosIQ: running-a-verification/ci-cd/travis/run-with-chaosiq/index.md
 - Teams and Organizations:
-        - Introduction: organizations-and-teams/organizations-and-teams-intro.md
-        - Creating an Organization: organizations-and-teams/create-organization.md
-        - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization.md
-        - Creating a Team: organizations-and-teams/creating-a-team.md
-        - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team.md
-        - Running Experiments as a Team: organizations-and-teams/collaborating-on-experiments.md
-        - Switching Teams: organizations-and-teams/switching-teams.md
-        - Switching Organizations: organizations-and-teams/switching-organizations.md
-- Tokens: tokens/generate-token.md
-- Deployment Options: deployment-options/deployment-options.md
+        - Introduction: organizations-and-teams/introduction/index.md
+        - Creating an Organization: organizations-and-teams/create-organization/index.md
+        - Inviting people to your Organization: organizations-and-teams/invite-to-an-organization/index.md
+        - Creating a Team: organizations-and-teams/create-team/index.md
+        - Publishing Verifications to a Team: organizations-and-teams/publishing-to-a-team/index.md
+        - Running Experiments as a Team: organizations-and-teams/collaborating-on-experiments/index.md
+        - Switching Teams: organizations-and-teams/switching-teams/index.md
+        - Switching Organizations: organizations-and-teams/switching-organizations/index.md
+- Reliability Workflow: reliability-workflow/index.md
+- Tokens: tokens/index.md
+- Deployment Options: deployment-options/index.md
 - Frequently Asked Questions (FAQ):
     - How do I check I have the latest version of the ChaosIQ plugin: faq/plugin.md
 
