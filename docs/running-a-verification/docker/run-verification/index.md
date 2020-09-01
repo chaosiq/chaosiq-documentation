@@ -43,7 +43,7 @@ Again the insights will be displayed on ChaosIQ.
 
 *That’s it!* We have covered using the ChaosIQ chaosiq/chaostoolkit Docker image to run simple experiments and verifications. This can be used as the basis on running with Docker in many different environments which we will cover in further ChaosIQ *How To* docs.
 
-[RunAndVerify]: /run-and-verify/run-and-verify/
+[RunAndVerify]: /verifications-and-experiments/run-and-verify/
 [VerificationInsight]: ./assets/verification-insight.png
 [CreateVerification]: ./assets/create-verification.png
 [RunVerification]: ./assets/run-verification.png

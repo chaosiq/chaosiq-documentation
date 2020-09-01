@@ -1,6 +1,6 @@
 # How do I check I have the latest version of the ChaosIQ plugin?
 
-To connect the Chaos Toolkit to ChaosIQ you need to [install and run the chaosiq-cloud plugin](/gettingstarted/add-chaos-iq). The plugin is added to the python environment where you run the Chaos Toolkit, so navigate to you terminal window where you have the Chaos Toolkit setup, and enter:
+To connect the Chaos Toolkit to ChaosIQ you need to [install and run the chaosiq-cloud plugin](getting-started/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit). The plugin is added to the python environment where you run the Chaos Toolkit, so navigate to you terminal window where you have the Chaos Toolkit setup, and enter:
 
 ```bash
 $ pip search 'chaosiq'

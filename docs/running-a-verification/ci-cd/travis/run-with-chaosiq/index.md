@@ -47,7 +47,7 @@ You can if you wish run your experiment locally to confirm that it will publish 
 chaos --settings settings.yaml run experiment.json
 ```
 
-You can the login to [ChaosIQ Executions][ChaosIQExecutions] page to confirm your execution has been published.
+You can the login to ChaosIQ Executions page to confirm your execution has been published.
 
 ## Encrypt the Settings File
 
@@ -144,13 +144,12 @@ In this section we have:
 
 [ChaosToolkit]: https://chaostoolkit.org/
 [ChaosIQ]: https://console.chaosiq.io/login
-[SignInChaosIQ]: /gettingstarted/signin
+[SignInChaosIQ]: /getting-started/chaostoolkit-signin
 [SelectDefaultOrg]: /organizations-and-teams/switching-organizations
 [SelectDefaultTeam]: /organizations-and-teams/switching-teams
-[ChaosIQExecutions]: https://console.chaosiq.io/ChaosIQ/executions/
 [TravisFileEncryption]: https://docs.travis-ci.com/user/encrypting-files/
 [TravisCliInstall]: https://github.com/travis-ci/travis.rb#installation
 [TravisJob]: ./assets/travis-job.png
 [ExecutionDetail]: ./assets/execution-details.png
-[RunAndVerify]: /run-and-verify/run-and-verify/
+[RunAndVerify]: /verifications-and-experiments/run-and-verify/
 [TravisConsole]: https://travis-ci.com/signin

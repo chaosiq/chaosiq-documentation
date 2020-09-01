@@ -31,4 +31,4 @@ docker run my/chaostoolkit info extensions
 You should get an output showing you the Docker image includes the ```chaostoolkit-kubernetes``` extension.
 
 Once you have built your local Docker image you can use your custom image in place of the ChaosIQ chaosiq/chaostoolkit image. If you are following the section
-on [How to Run with ChaosIQ with Docker](/chaosiq-on-docker/chaosiq-on-docker-intro/) just replace chaosiq/chaostoolkit with your custom image name (my/chaostoolkit).
+on [How to Run with ChaosIQ with Docker](../run-with-chaosiq) just replace chaosiq/chaostoolkit with your custom image name (my/chaostoolkit).

@@ -208,8 +208,8 @@ If you select the details button for your Verification can view the detail of th
 
 The details view includes information about the Objective, the Measurement used and the Verification. It shows the Verification Run Timeline that includes a timeline chart of samples.
 
-[InstallCtk]: /gettingstarted/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip
-[InstallChaosIQPlugin]: /gettingstarted/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit
+[InstallCtk]: /getting-started/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip
+[InstallChaosIQPlugin]: /getting-started/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit
 [ExecutionsSummary]: ./assets/executions-summary.png
 [ExecutionsDetail]: ./assets/executions-detail.png
 [ExperimentJournal]: ./assets/experiment-journal.png

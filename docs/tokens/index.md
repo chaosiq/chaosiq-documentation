@@ -2,7 +2,7 @@ To be able to fetch assets from ChaosIQ, as well as pushing back results, for bo
 
 ## Generate a Token
 
-A token is generated from the  ChaosIQ [Tokens page](https://console.chaosiq.io/tokens).
+A token is generated from the  ChaosIQ **Tokens page**.
 
 ![Tokens Page][TokensPage]
 

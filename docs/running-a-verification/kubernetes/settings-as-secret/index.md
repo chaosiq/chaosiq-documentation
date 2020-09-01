@@ -29,7 +29,7 @@ teams within the same namespace in your Kubernetes cluster. However, you'll
 need to specify the settings secret name to the Chaos Experiment, as
 described in the [documentation][PassSettingsAsSecret].
 
-[SignInChaosIQ]: /gettingstarted/signin
+[SignInChaosIQ]: /getting-started/chaostoolkit-signin
 [SelectDefaultOrg]: /organizations-and-teams/switching-organizations
 [SelectDefaultTeam]: /organizations-and-teams/switching-teams
 [PassSettingsAsSecret]: https://docs.chaostoolkit.org/deployment/k8s/operator/#pass-chaos-toolkit-settings-as-a-kubernetes-secret

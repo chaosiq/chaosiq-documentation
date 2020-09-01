@@ -189,7 +189,7 @@ At this point, some stress has been applied to the CPU and a Steady
 
 The Reliability Toolkit supports the import of an experiment to into
  the toolkit to upgrade it to a Verification. Login to the [Reliability Toolkit]
-[RtkLogin] and navigate to the [Verifications page][RtkVerifications]. From the
+[RtkLogin] and navigate to the Verifications page. From the
  verifications page you have an option to import an experiment, select the
  Import Experiment button, and you will see the Experiment import screen, once
  you have selected your file you will see a screen similar to the following:
@@ -366,13 +366,12 @@ AWS Systems Command against it using the Chaos Toolkit, using an
 [AdrianHornsbyMedium]: https://medium.com/@adhorn
 [InjectingChaosToAmazonEc2]: https://medium.com/@adhorn/injecting-chaos-to-amazon-ec2-using-amazon-system-manager-ca95ee7878f5
 [SshAccessToEc2]: https://aws.amazon.com/blogs/compute/new-using-amazon-ec2-instance-connect-for-ssh-access-to-your-ec2-instances/
-[CliInstallation]: gettingstarted/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip
+[CliInstallation]: /getting-started/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip
 [RtkLogin]: https://console.chaosiq.io/login
-[RtkVerifications]: https://console.chaosiq.io/ChaosIQ/Staging/verifications
 [HtopScreen]: ./assets/htop-screen.png
 [VerificationScreen]: ./assets/verification-screen.png
-[AddChaosIQPlugin]:/gettingstarted/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit
-[SignInChaosIQ]: /gettingstarted/signin
+[AddChaosIQPlugin]:/getting-started/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit
+[SignInChaosIQ]: /getting-started/chaostoolkit-signin
 [SelectDefaultOrg]: /organizations-and-teams/switching-organizations
 [SelectDefaultTeam]: /organizations-and-teams/switching-teams
 [RunVerification]: ./assets/run-verification.png

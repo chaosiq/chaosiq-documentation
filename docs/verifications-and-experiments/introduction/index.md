@@ -6,7 +6,7 @@ The Chaos Toolkit aims to give you the simplest experience for writing and runni
 1. [Execution Profile][ExecutionProfile]
 1. [Experiment and Verification Execution][RunAndVerify]
 
-[ExperimentFormat]: ./experiment-format
-[VerificationFormat]: ./verification-format
-[ExecutionProfile]: ./execution-profile
-[RunAndVerify]: ./run-and-verify
+[ExperimentFormat]: ../experiment-format
+[VerificationFormat]: ../verification-format
+[ExecutionProfile]: ../execution-profile
+[RunAndVerify]: ../run-and-verify

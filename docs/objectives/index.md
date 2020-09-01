@@ -1,7 +1,7 @@
 A reliability objective is something in your System that you or your customers care about and which shows that your system or part of your system is available. In Site Reliability Engineering (SRE) terms this is a Service Level Objective (SLO).
 You might care that your homepage is available 99.9% of the time. You might care that your database is able to respond to a particular query under an amount of time. Or you might care that your users can interact with your system, perform some system function, 99.999% of the time as it’s super-critical! These are all Objectives, and they frame what’s important to you about your system. A good set of Objectives represents a great high-level description of how your system aims to behave, from your perspective, in order to make your users happy.
 
-You create an Objective  from the [Objectives page](https://console.chaosiq.io/ChaosIQ/Staging/objectives) and click the `Create a New Objective` button.
+You create an Objective  from the **Objectives** page and click the `Create a New Objective` button.
 
 If you don't currently have a team selected you will have to select a team to associate this objective with.
 

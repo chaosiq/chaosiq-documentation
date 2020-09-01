@@ -34,7 +34,7 @@ Here we setup a volume share with the ```./ctk_config``` subdirectory on the hos
 
 Then we use the ```--setttings``` option with the ```chaos run``` command to use those settings.
 
-The result of running the command will result in the experiment being published to ChaosIQ. If you login to [ChaosIQ][] and navigate to the [Executions page][ExecutionsPage] you will see the running execution:
+The result of running the command will result in the experiment being published to ChaosIQ. If you login to [ChaosIQ][] and navigate to the Executions page you will see the running execution:
 
 ![Execution Running][ExecutionRunning]
 
@@ -52,11 +52,10 @@ Within the execution detail page if you expand the General label you can see the
 
 [ChaosToolkit]: https://chaostoolkit.org/
 [ChaosIQCloud]: https://pypi.org/project/chaosiq-cloud/
-[InstallCtk]: /gettingstarted/prerequisites
-[SignChaosIQ]: /gettingstarted/signin/
+[InstallCtk]: /getting-started/prerequisites
+[SignChaosIQ]: /getting-started/chaostoolkit-signin/
 [ChaosIQ]: https://console.chaosiq.io
 [ChaosIQTokens]:https://console.chaosiq.io/tokens
-[ExecutionsPage]: https://console.chaosiq.io/ChaosIQ/executions/finished
 [ExecutionRunning]: ./assets/execution-running.png
 [ExecutionComplete]: ./assets/executions-page.png
 [ExecutionDetail]: ./assets/execution-detail.png

@@ -80,7 +80,7 @@ To run a verification from your local CLI you need to [sign-in to ChaosIQ]
 [SignInChaosIQ] with a token and select your default [organization]
 [SelectDefaultOrg] and [team][SelectDefaultTeam].
 
-You can then login to ChaosIQ from a browser, ensure you are using the same organization and team. You can either create a new verification from the [Verifications page][VerificationsPage] or import an experiment:
+You can then login to ChaosIQ from a browser, ensure you are using the same organization and team. You can either create a new verification from the Verifications page or import an experiment:
 
 ![ChaosIQ Verifications][ChaosIqVerifications]
 
@@ -164,7 +164,7 @@ You should see output similar to:
 
 ## View the Verification on the Insights Page
 
-When the verification is completed you should see the Verification on the [ChaosIQ Insights page](https://console.chaosiq.dev/ChaosIQ/Staging/insights). If you select your verification the insights details will be displayed:
+When the verification is completed you should see the Verification on the **ChaosIQ Insights page**. If you select your verification the insights details will be displayed:
 
 ![Insights Detail View][InsightsDetail]
 
@@ -178,14 +178,13 @@ In this section we have:
 * Created a Verification by import an experiment into ChaosIQ.
 * Run the verification locally and published to the results to ChaosIQ.
 
-[CtkInstall]: gettingstarted/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip
-[ChaosIQPlugin]: gettingstarted/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit
+[CtkInstall]: /getting-started/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip
+[ChaosIQPlugin]: /getting-started/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit
 [ExperimentCatalog]: https://github.com/open-chaos/experiment-catalog
 [UrlResponds]: https://raw.githubusercontent.com/open-chaos/experiment-catalog/master/local/url-responds/url-responds.json
-[SignInChaosIQ]: /gettingstarted/signin
+[SignInChaosIQ]: /getting-started/chaostoolkit-signin
 [SelectDefaultOrg]: /organizations-and-teams/switching-organizations
 [SelectDefaultTeam]: /organizations-and-teams/switching-teams
-[VerificationsPage]: https://console.chaosiq.io/ChaosIQ/verifications
 [ChaosIqVerifications]:./assets/chaosiq-verifications.png
 [VerificationsImport]:./assets/verifications-import.png
 [ExperimentImport]:./assets/experiment-import.png

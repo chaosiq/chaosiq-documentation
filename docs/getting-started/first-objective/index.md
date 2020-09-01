@@ -4,7 +4,7 @@ Ensure you have a team selected using the drop-down at the left of the ChaosIQ c
 
 [selectTeam]: ./assets/select-team.png
 
-Then navigate to the [Objectives page](https://console.chaosiq.io/ChaosIQ/Staging/objectives) and click the `Create a New Objective` button.
+Then navigate to the Objectives page and click the `Create a New Objective` button.
 
  On the `Objective` form specify an Objective you care about for your system. First you need to add a meaningful name for your Objective. An objective's name should mean something of value to the business or to your customers. You can also add an optional description to elaborate on your Objective.
 

@@ -15,9 +15,7 @@ Reliability is not something you _have_, it is something you _do_ or, more accur
 
 - [Learn more about why reliability is a practice][why]
 - [Set up your Reliability Toolkit][getting-started]
-- [Jump straight in and start to work with your own Reliability Timeline][timeline]
 
-[why]: ./why-practice/why-practice-reliability/
-[getting-started]: ./gettingstarted/introduction/
-[timeline]: ./timeline/timeline/
+[why]: ./why-practice-reliability/
+[getting-started]: ./getting-started/introduction/
 

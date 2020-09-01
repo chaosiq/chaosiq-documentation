@@ -12,7 +12,7 @@ The Chaos Toolkit is still the open core of ChaosIQ and we remain as dedicated a
 
 The Chaos Toolkit is specifically designed to help individuals and organizations write and execute powerful and customizable chaos engineering experiments. Whereas ChaosIQ is designed to help organizations scale out [chaos engineering and system verification](https://chaosiq.io/resources/chaos-engineering/from-chaos-to-verification) across all their teams.
 
-For this reason ChaosIQ provides a cross-organizational experience that include capabilities such as [Safeguards](https://chaosiq.io/resources/tutorials/safeguards-with-google-cloud-functions), centralised dashboards and the authoring and execution of system verifications. All of this is provided in the first instance as a Software as a Service (SaaS), hosted by ChaosIQ on our own systems. The actual chaos engineering experiments, and system verifications, are still executed locally by the Chaos Toolkit, which is extended to add some of these capabilities including the ability to talk back to ChaosIQ:
+For this reason ChaosIQ provides a cross-organizational experience that include capabilities such as Safeguards, centralised dashboards and the authoring and execution of system verifications. All of this is provided in the first instance as a Software as a Service (SaaS), hosted by ChaosIQ on our own systems. The actual chaos engineering experiments, and system verifications, are still executed locally by the Chaos Toolkit, which is extended to add some of these capabilities including the ability to talk back to ChaosIQ:
 
 
 ![The ChaosIQ SaaS is securely pushed to by your enhanced Chaos Toolkit instances as they execute your system verifications and chaos experiments.][saas]

@@ -57,7 +57,7 @@ line, as described in the official [documentation][ManageK8sCtkObjects].
 The executions and results of those experiements will be pushed to your
 ChaosIQ console and visible in the Insights and Executions pages.
 
-[CustomDockerImage]: /chaosiq-on-docker/build-a-custom-docker-image
+[CustomDockerImage]: /running-a-verification/docker/custom-docker-image
 [dockerImage]: https://raw.githubusercontent.com/chaosiq/chaosiq-cloud/master/Dockerfile
 [ChaosIQCTK]: https://hub.docker.com/r/chaosiq/chaostoolkit
 [k8sOperatorDoc]: https://docs.chaostoolkit.org/deployment/k8s/operator
