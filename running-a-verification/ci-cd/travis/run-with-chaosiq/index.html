@@ -1072,7 +1072,7 @@
 <p>To be able to fetch assets from ChaosIQ, as well as pushing back results,
 for both experiments and verifications, you&rsquo;ll need to setup a settings file
 with a valid token and selected targeted organization &amp; team.</p>
-<p>Please refer to these documentation links, to <a href="/gettingstarted/signin">signin to ChaosIQ</a> with a token and select your default <a href="/organizations-and-teams/switching-organizations">organization</a> and <a href="/organizations-and-teams/switching-teams">team</a>.</p>
+<p>Please refer to these documentation links, to <a href="/getting-started/chaostoolkit-signin">signin to ChaosIQ</a> with a token and select your default <a href="/organizations-and-teams/switching-organizations">organization</a> and <a href="/organizations-and-teams/switching-teams">team</a>.</p>
 <h2 id="add-the-chaosiq-extension">Add the ChaosIQ Extension<a class="headerlink" href="#add-the-chaosiq-extension" title="Permanent link">&para;</a></h2>
 <p>You will need to add the ChaosIQ extension to the Github repository we setup in the previous section. Open the <code>requirements.txt</code> file and add the line:</p>
 <p><div class="highlight"><pre><span></span><code>chaosiq-cloud
@@ -1100,7 +1100,7 @@ Then run:</p>
 <div class="highlight"><pre><span></span><code>chaos --settings settings.yaml run experiment.json
 </code></pre></div>
 
-<p>You can the login to <a href="https://console.chaosiq.io/ChaosIQ/executions/">ChaosIQ Executions</a> page to confirm your execution has been published.</p>
+<p>You can the login to ChaosIQ Executions page to confirm your execution has been published.</p>
 <h2 id="encrypt-the-settings-file">Encrypt the Settings File<a class="headerlink" href="#encrypt-the-settings-file" title="Permanent link">&para;</a></h2>
 <p>As mentioned above the settings file contains sensitive information and should not be pushed to your Github repository. Travis has a feature to enable you to encrypt a file then use that file as part of you job execution on Travis, this is detailed in the <a href="https://docs.travis-ci.com/user/encrypting-files/">Travis Documentation</a>.</p>
 <h3 id="install-the-travis-cli">Install the Travis CLI<a class="headerlink" href="#install-the-travis-cli" title="Permanent link">&para;</a></h3>
@@ -1136,7 +1136,7 @@ requirements.txt
 <p><img alt="Execution Detail" src="assets/execution-details.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If you want to run a <a href="/run-and-verify/run-and-verify/">Verification</a> instead of an experiment all you need to do is add a verification file to the Github repository and change the <code>chaos run</code> command with <code>chaos verify</code>. The Verification will run as part of the Travis build and the results will be published to the Insights view on ChaosIQ.</p>
+<p>If you want to run a <a href="/verifications-and-experiments/run-and-verify/">Verification</a> instead of an experiment all you need to do is add a verification file to the Github repository and change the <code>chaos run</code> command with <code>chaos verify</code>. The Verification will run as part of the Travis build and the results will be published to the Insights view on ChaosIQ.</p>
 </div>
 <p>In this section we have:</p>
 <ul>

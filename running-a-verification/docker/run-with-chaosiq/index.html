@@ -1013,7 +1013,7 @@
                 
                 <h2 id="running-with-chaosiq">Running with ChaosIQ<a class="headerlink" href="#running-with-chaosiq" title="Permanent link">&para;</a></h2>
 <p>To connect the image to ChaosIQ the Chaos Toolkit on hte Docker image will need
-to be signed in to ChaosIQ.  The <a href="/gettingstarted/signin/">Signing in to ChaosIQ</a> page
+to be signed in to ChaosIQ.  The <a href="/getting-started/chaostoolkit-signin/">Signing in to ChaosIQ</a> page
 describes the sign-in in full. The only difference here is, we will not use the default settings file by using following command for the sign-in step:</p>
 <p><div class="highlight"><pre><span></span><code>chaos --settings <span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/ctk_config/settings.yaml signin
 </code></pre></div>
@@ -1031,7 +1031,7 @@ The  <code>chaos signin</code> will prompt is similar to the following, when the
 
 <p>Here we setup a volume share with the <code>./ctk_config</code> subdirectory on the host and <code>/tmp/settings</code> on the guest with the -v option.</p>
 <p>Then we use the <code>--setttings</code> option with the <code>chaos run</code> command to use those settings.</p>
-<p>The result of running the command will result in the experiment being published to ChaosIQ. If you login to <a href="https://console.chaosiq.io">ChaosIQ</a> and navigate to the <a href="https://console.chaosiq.io/ChaosIQ/executions/finished">Executions page</a> you will see the running execution:</p>
+<p>The result of running the command will result in the experiment being published to ChaosIQ. If you login to <a href="https://console.chaosiq.io">ChaosIQ</a> and navigate to the Executions page you will see the running execution:</p>
 <p><img alt="Execution Running" src="assets/execution-running.png" /></p>
 <p>If the execution has completed, you can see the completed executions by selecting the Finished tab:</p>
 <p><img alt="Execution complete" src="assets/executions-page.png" /></p>

@@ -1018,7 +1018,7 @@
 <p><img alt="Run Verification" src="assets/run-verification.png" /></p>
 <p>From the Run Verification page, you can Copy the verify command and extract the URL from the command, this can be used in the Run Verification section.</p>
 <h2 id="run-the-verification">Run the Verification<a class="headerlink" href="#run-the-verification" title="Permanent link">&para;</a></h2>
-<p>A Verification runs using a different runtime pattern from an experiment, it will also populate the Insights view on ChaosIQ, the <a href="/run-and-verify/run-and-verify/">Run and Verify page</a> details the differences between <em>run</em> and <em>verify</em>.</p>
+<p>A Verification runs using a different runtime pattern from an experiment, it will also populate the Insights view on ChaosIQ, the <a href="/verifications-and-experiments/run-and-verify/">Run and Verify page</a> details the differences between <em>run</em> and <em>verify</em>.</p>
 <p>You can then run the Verification with the following command:</p>
 <div class="highlight"><pre><span></span><code>docker run  -v <span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/ctk:/home/svc  -v <span class="sb">`</span><span class="nb">pwd</span><span class="sb">`</span>/ctk_config:/tmp/settings <span class="se">\</span>
  chaosiq/chaostoolkit --settings /tmp/settings/settings.yaml verify  <span class="se">\</span>

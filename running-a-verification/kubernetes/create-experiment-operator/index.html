@@ -942,7 +942,7 @@ we&rsquo;ll show you on how to create the Chaos Experiment definition to pass to
 operator.</p>
 <p>To run Chaos Toolkit with ChaosIQ as a kubernetes pod, we provide a default
 <a href="https://raw.githubusercontent.com/chaosiq/chaosiq-cloud/master/Dockerfile">docker image</a>, but you can create your own, with additional
-extensions if needed, as described in the <a href="/chaosiq-on-docker/build-a-custom-docker-image">documentation</a>.
+extensions if needed, as described in the <a href="/running-a-verification/docker/custom-docker-image">documentation</a>.
 The default image will be downloaded from the <a href="https://hub.docker.com/r/chaosiq/chaostoolkit">docker hub</a>.</p>
 <p>First, get the asset URL for either the verification or the experiment from
 the ChaosIQ console. Copy the URL from the <code>chaos</code> command, or right-click
@@ -953,7 +953,7 @@ on the downlad button to copy the target link.</p>
 <p>Then, you shall use the following template, with your own asset URL, to create
 a Chaos Toolkit Experiment definition. You must modify the command arguments to
 <code>verify</code> or <code>run</code> an experiment with your own asset URL, update the pod image
-if you created a custom ChaosIQ <a href="/chaosiq-on-docker/build-a-custom-docker-image">docker image</a>, update the
+if you created a custom ChaosIQ <a href="/running-a-verification/docker/custom-docker-image">docker image</a>, update the
 settings secret name if desired. You can also customize your manifest following
 the official <a href="https://docs.chaostoolkit.org/deployment/k8s/operator">documentation</a>.</p>
 <div class="highlight"><pre><span></span><code><span class="nn">---</span>

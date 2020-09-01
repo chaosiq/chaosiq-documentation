@@ -1073,7 +1073,7 @@ SSM Agent is installed, by default, on Amazon Linux base AMIs dated 2017.09 and 
 SSM Agent is also installed, by default, on Amazon Linux 2, Ubuntu Server 16.04, and Ubuntu Server 18.04 LTS AMIs.
 If it is not included you can install the <a href="https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-install-ssm-agent.html">SSM agent manually</a></p>
 <p>If you don&rsquo;t have a suitable EC2 instance available you can create an EC2 Web server with Flask using this <a href="https://www.codementor.io/@jqn/deploy-a-flask-app-on-aws-ec2-13hp1ilqy2">useful guide</a>. This should get you to the point where you have an EC2 instance up and running that would respond to an HTTP request.</p>
-<p>A quick first experiment is used to confirm we are all set up to run a Chaos Toolkit experiment against the EC2 endpoint. Ensure you have followed the steps to install the <a href="gettingstarted/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip">Chaos Toolkit CLI</a>.</p>
+<p>A quick first experiment is used to confirm we are all set up to run a Chaos Toolkit experiment against the EC2 endpoint. Ensure you have followed the steps to install the <a href="/getting-started/prerequisites/#creating-a-new-chaos-toolkit-cli-installation-using-pip">Chaos Toolkit CLI</a>.</p>
 <div class="highlight"><pre><span></span><code>{
     &quot;version&quot;: &quot;1.0.0&quot;,
     &quot;title&quot;: &quot;Running a http request on an  EC2&quot;,
@@ -1237,7 +1237,7 @@ chaos run verification-ec2-responds-processor-load-stage.json
   Hypothesis can be repeated over a period of time.</p>
 <h2 id="experiment-import">Experiment Import<a class="headerlink" href="#experiment-import" title="Permanent link">&para;</a></h2>
 <p>The Reliability Toolkit supports the import of an experiment to into
- the toolkit to upgrade it to a Verification. Login to the <a href="https://console.chaosiq.io/login">Reliability Toolkit</a> and navigate to the <a href="https://console.chaosiq.io/ChaosIQ/Staging/verifications">Verifications page</a>. From the
+ the toolkit to upgrade it to a Verification. Login to the <a href="https://console.chaosiq.io/login">Reliability Toolkit</a> and navigate to the Verifications page. From the
  verifications page you have an option to import an experiment, select the
  Import Experiment button, and you will see the Experiment import screen, once
  you have selected your file you will see a screen similar to the following:</p>
@@ -1254,9 +1254,9 @@ period of 3 minutes, a duration for the experiment of 5 minutes seemed reasonabl
 <p>Now you can select the Create Verification and View Execution Steps, button at the
 end of the page. You will be taken to the run verification page. This page shows
 you how to run the verification in a local terminal where the Chaos Toolkit is installed
- along with <a href="/gettingstarted/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit">Chaos-Cloud plugin</a>. You will also need to be
+ along with <a href="/getting-started/prerequisites/#add-the-chaosiq-plugin-to-your-chaos-toolkit">Chaos-Cloud plugin</a>. You will also need to be
  signed in to the Reliability Toolkit, please refer to these documentation links,
- to <a href="/gettingstarted/signin">signin to ChaosIQ</a> with a token and select your default <a href="/organizations-and-teams/switching-organizations">organization</a> and <a href="/organizations-and-teams/switching-teams">team</a>.</p>
+ to <a href="/getting-started/chaostoolkit-signin">signin to ChaosIQ</a> with a token and select your default <a href="/organizations-and-teams/switching-organizations">organization</a> and <a href="/organizations-and-teams/switching-teams">team</a>.</p>
 <p><img alt="Run Verification" src="assets/run-verification.png" /></p>
 <h2 id="run-the-verification">Run the Verification<a class="headerlink" href="#run-the-verification" title="Permanent link">&para;</a></h2>
 <p>You can either run the verification from the URL provided or you can download
